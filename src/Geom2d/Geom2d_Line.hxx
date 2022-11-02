@@ -77,10 +77,10 @@ public:
   //! Set <me> so that <me> has the same geometric properties as L.
   Standard_EXPORT void SetLin2d (const gp_Lin2d& L);
   
-  //! changes the direction of the line.
+  //! Changes the direction of the line.
   Standard_EXPORT void SetDirection (const gp_Dir2d& V);
   
-  //! changes the direction of the line.
+  //! Get the direction of the line.
   Standard_EXPORT const gp_Dir2d& Direction() const;
   
 
@@ -88,7 +88,7 @@ public:
   Standard_EXPORT void SetLocation (const gp_Pnt2d& P);
   
 
-  //! Changes the "Location" point (origin) of the line.
+  //! Get the "Location" point (origin) of the line.
   Standard_EXPORT const gp_Pnt2d& Location() const;
   
 
